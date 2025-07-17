@@ -5,91 +5,58 @@
 
 <table>
   <tr>
-    <td align="center" width="140px">
+    <td align="center" width="150px">
       <img src="https://avatars.githubusercontent.com/guno-p" width="100px" style="border-radius: 50%" /><br/>
       <b>박건호</b><br/>
       FE, BE Support<br/>
-      <a href="https://github.com/guno-p">GitHub</a>
+      <a href="https://github.com/guno-p">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
+      </a>
     </td>
-    <td align="left">
-      <ul>
-        <li><b>Role:</b> Front-end, Back-end 지원</li>
-        <li><b>GitHub:</b> <a href="https://github.com/guno-p">https://github.com/guno-p</a></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="140px">
+    <td align="center" width="150px">
       <img src="https://avatars.githubusercontent.com/ParkPark8" width="100px" style="border-radius: 50%" /><br/>
       <b>박동희</b><br/>
       BE<br/>
-      <a href="https://github.com/ParkPark8">GitHub</a>
+      <a href="https://github.com/ParkPark8">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
+      </a>
     </td>
-    <td align="left">
-      <ul>
-        <li><b>Role:</b> Back-end</li>
-        <li><b>GitHub:</b> <a href="https://github.com/ParkPark8">https://github.com/ParkPark8</a></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="140px">
+    <td align="center" width="150px">
       <img src="https://avatars.githubusercontent.com/saeun-park" width="100px" style="border-radius: 50%" /><br/>
       <b>박사은</b><br/>
       FE, PM<br/>
-      <a href="https://github.com/saeun-park">GitHub</a>
-    </td>
-    <td align="left">
-      <ul>
-        <li><b>Role:</b> Front-end, PM</li>
-        <li><b>GitHub:</b> <a href="https://github.com/saeun-park">https://github.com/saeun-park</a></li>
-      </ul>
+      <a href="https://github.com/saeun-park">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
+      </a>
     </td>
   </tr>
   <tr>
-    <td align="center" width="140px">
+    <td align="center" width="150px">
       <img src="https://avatars.githubusercontent.com/syann97" width="100px" style="border-radius: 50%" /><br/>
       <b>안세영</b><br/>
       BE<br/>
-      <a href="https://github.com/syann97">GitHub</a>
+      <a href="https://github.com/syann97">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
+      </a>
     </td>
-    <td align="left">
-      <ul>
-        <li><b>Role:</b> Back-end</li>
-        <li><b>GitHub:</b> <a href="https://github.com/syann97">https://github.com/syann97</a></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="140px">
+    <td align="center" width="150px">
       <img src="https://avatars.githubusercontent.com/NahyeChoi" width="100px" style="border-radius: 50%" /><br/>
       <b>최나혜</b><br/>
       BE<br/>
-      <a href="https://github.com/NahyeChoi">GitHub</a>
+      <a href="https://github.com/NahyeChoi">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
+      </a>
     </td>
-    <td align="left">
-      <ul>
-        <li><b>Role:</b> Back-end</li>
-        <li><b>GitHub:</b> <a href="https://github.com/NahyeChoi">https://github.com/NahyeChoi</a></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="140px">
+    <td align="center" width="150px">
       <img src="https://avatars.githubusercontent.com/a40418a" width="100px" style="border-radius: 50%" /><br/>
       <b>최승아</b><br/>
-      FE, Team Leader<br/>
-      <a href="https://github.com/a40418a">GitHub</a>
-    </td>
-    <td align="left">
-      <ul>
-        <li><b>Role:</b> Front-end, 팀장</li>
-        <li><b>GitHub:</b> <a href="https://github.com/a40418a">https://github.com/a40418a</a></li>
-      </ul>
+      FE, 팀장<br/>
+      <a href="https://github.com/a40418a">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
+      </a>
     </td>
   </tr>
 </table>
-
 </br>
 
 ## 2. 프로젝트 개요 및 사용 기술 스택
@@ -111,17 +78,16 @@
 
 ### (3) 기술 스택
 
-| 항목         | 사용 도구 / 기술           |
-|--------------|----------------------------|
-| 👥 소통 / 협업 | ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
- ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
- ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) |
-| 🖥️ Frontend   | ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) |
-| 🛠️ Backend    | ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
- ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) |
-| 🗄️ Database   | ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
- ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) |
-| 🌐 버전 관리   | ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) |
+
+### (3) 기술 스택
+
+| 항목 | 사용 도구 / 기술 |
+|------|------------------|
+| 👥 소통 / 협업 | ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=flat-square&logo=notion&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=flat-square&logo=jira&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white) |
+| 🖥️ Frontend | ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=flat-square&logo=vuedotjs&logoColor=%234FC08D) |
+| 🛠️ Backend | ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=flat-square&logo=spring&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white) |
+| 🗄️ Database | ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white) |
+| 🌐 버전 관리 | ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat-square&logo=github&logoColor=white) |
 
 </br>
 
