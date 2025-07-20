@@ -78,9 +78,6 @@
 
 ### (3) 기술 스택
 
-
-### (3) 기술 스택
-
 | 항목 | 사용 도구 / 기술 |
 |------|------------------|
 | 👥 소통 / 협업 | ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=flat-square&logo=notion&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=flat-square&logo=jira&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white) |
