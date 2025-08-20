@@ -1,227 +1,98 @@
-# 노후도락 : 시니어의 노후를 위한 자산 통합 관리 플랫폼
-
-# 코드 컨벤션
-
-> 한번씩 정독하여 해당 컨벤션에 기반하여 코드를 작성하여 추후 충돌없게!
-> 
-
-[commitlint/@commitlint/config-conventional at master · conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional)
-
-# Commit Message 규칙
-
-```jsx
-[NHDR-93] feat: 모달박스 생성
-```
-
-- [티켓넘버]: 자동생성되기에 작성할 필요 없음
-- 커밋타입: 어떤 내용의 작업을 했는지, 아래 타입 중에서 선택하여 동일하게 작성
-    - **`feat`: 새로운 기능 추가** ✨
-    - **`fix`: 버그 수정** 🐛
-    - **`docs`: 문서 수정 (ex. README.md)** 📝
-    - **`style`: css 등 스타일 수정** 💄
-    - **`refactor`: 코드 리팩토링 (기능 변화 없음)** ♻️
-    - `test`: 테스트 코드 추가 ✅
-    - `build`: 빌드 시스템, 외부 의존성 변경 📦
-    - `chore`: 빌드 업무 수정, 패키지 매니저 수정 🔧
-    - `revert`: 이전 커밋으로 되돌리기 (오류 발생 시) ⏪
-- 간단한 작업 내용 설명
-
-# Branch Name 규칙
-
-```jsx
-NHDR-93-feat-wina
-```
-
-- 티켓넘버: 자동생성되기에 작성할 필요 없음
-- 작업타입: 해당 브랜치에서 어떤 작업을 하는지, 아래 타입 중에서 선택하여 동일하게 작성(작은 작업이면 상관없지만 큰 작업이 두개가 있다면 브랜치를 두개 팝시다!)
-    - **`feat`: 새로운 기능 추가** ✨
-    - **`fix`: 버그 수정** 🐛
-    - **`docs`: 문서 수정 (ex. README.md)** 📝
-    - **`style`: css 등 스타일 수정** 💄
-    - **`refactor`: 코드 리팩토링 (기능 변화 없음)** ♻️
-    - `test`: 테스트 코드 추가 ✅
-    - `build`: 빌드 시스템, 외부 의존성 변경 📦
-    - `chore`: 빌드 업무 수정, 패키지 매니저 수정 🔧
-    - `revert`: 이전 커밋으로 되돌리기 (오류 발생 시) ⏪
-- 닉네임(자기 표시할 수 있는 것으로 자유롭게 바꾼 후 해당 닉네임만 사용)
-    - 박건호: `guno`
-    - 박동희: `dong`
-    - 박사은: `saeun`
-    - 안세영: `ahn`
-    - 최나혜: `hye`
-    - 최승아: `wina`
-
-# Pull Request 규칙
-
-반드시 2명에게 approve 받아야 머지할 수 있도록 설정
-
-## 프론트엔드
-
-```markdown
-<!-- PR명: [티켓넘버] 작업주제 닉네임 -->
-
-# 📝 작업 내용
-
-<!-- 어떤 작업을 했는지 간단한 리스트업 -->
-- 
-- 
-
-# ✅ 체크리스트
-- [ ] `pnpm build`: 정상 작동
-- [ ] `pnpm dev`: 정상 작동
-- [ ] 로컬환경에서 정상 동작 확인
-- [ ] 리뷰어 지정 및 리뷰 요청 완료
-- [ ] 주석 작성
-- [ ] Jira in Review로 이동 완료
-```
-
-## 백엔드
-
-```markdown
-<!-- PR명: [티켓번호] 작업 주제 - 닉네임 -->
-
-# 📝 작업 내용
-
-<!-- 어떤 작업을 했는지 간단한 리스트업 -->
-- 
-- 
-
-# ✅ 체크리스트
-- [ ] `./gradlew build` 또는 `mvn clean install`: 정상 작동
-- [ ] Postman 또는 Swagger로 API 테스트 완료
-- [ ] 로컬 DB 연동 후 동작 확인
-- [ ] 예외 및 유효성 검증 로직 포함
-- [ ] 로그 및 주석 작성
-- [ ] 리뷰어 지정 및 리뷰 요청 완료
-- [ ] Jira in Review로 이동 완료
-```
+<!-- 노후도락 로고 -->
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1dd458ec-f7b3-4e61-ab05-1afdc3e322b5" alt="노후도락 로고" width="400"/>
+</p>
+<h1 align="center">노후도 樂이다</h1>
+<p align="center">
+시니어의 노후를 위한 자산 통합 관리 플랫폼
+</p>
+<img width="1920" height="1080" alt="노후도락" src="https://github.com/user-attachments/assets/4f39394b-7818-46f3-aa25-9ae6d4dee596" />
 
 
-## 1. 팀 소개
-**제주는 곰이부리고.. 안녕하세요 곰입니다(가베또롱호다)**
+---
 
-<table>
-  <tr>
-    <td align="center" width="150px">
-      <img src="https://avatars.githubusercontent.com/guno-p" width="100px" style="border-radius: 50%" /><br/>
-      <b>박건호</b><br/>
-      FE, BE Support<br/>
-      <a href="https://github.com/guno-p">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
-      </a>
-    </td>
-    <td align="center" width="150px">
-      <img src="https://avatars.githubusercontent.com/ParkPark8" width="100px" style="border-radius: 50%" /><br/>
-      <b>박동희</b><br/>
-      BE<br/>
-      <a href="https://github.com/ParkPark8">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
-      </a>
-    </td>
-    <td align="center" width="150px">
-      <img src="https://avatars.githubusercontent.com/saeun-park" width="100px" style="border-radius: 50%" /><br/>
-      <b>박사은</b><br/>
-      FE, PM<br/>
-      <a href="https://github.com/saeun-park">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="150px">
-      <img src="https://avatars.githubusercontent.com/syann97" width="100px" style="border-radius: 50%" /><br/>
-      <b>안세영</b><br/>
-      BE<br/>
-      <a href="https://github.com/syann97">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
-      </a>
-    </td>
-    <td align="center" width="150px">
-      <img src="https://avatars.githubusercontent.com/NahyeChoi" width="100px" style="border-radius: 50%" /><br/>
-      <b>최나혜</b><br/>
-      BE<br/>
-      <a href="https://github.com/NahyeChoi">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
-      </a>
-    </td>
-    <td align="center" width="150px">
-      <img src="https://avatars.githubusercontent.com/a40418a" width="100px" style="border-radius: 50%" /><br/>
-      <b>최승아</b><br/>
-      FE, 팀장<br/>
-      <a href="https://github.com/a40418a">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
-      </a>
-    </td>
-  </tr>
-</table>
-</br>
+## 🌐 Link
 
-## 2. 프로젝트 개요 및 사용 기술 스택
+🔗 [노후도락 바로가기](https://nohoodorak-fe.vercel.app/)
 
-### (1) 프로젝트 배경
+🔗 [노후도락 시연영상](https://youtu.be/2T-T0kL-5Tg?si=_uRuDuzMY4o1FVBO)
 
-2025년 기준, <a href="https://www.hankyung.com/article/2024122473591">대한민국은 국민 5명 중 1명이 65세 이상인 초고령사회에 진입</a>하였습니다.
-그러나 노년층을 위한 디지털 서비스는 여전히 단편적이고 파편화되어 있으며, 시니어의 삶에 실질적인 영향을 미치는 건강, 자산, 상속 등의 핵심 영역을 통합적으로 다루는 서비스는 공공·민간 모두에서 부재하거나 초기 단계에 머물러 있습니다.
-최근 금융권에서도 이러한 변화에 대응하기 위한 움직임이 나타나고 있습니다.
-우리은행은 ‘원더라이프’, 하나은행은 ‘하나더넥스트’를 통해 자산관리, 상속·증여, 은퇴설계 등 주요 금융 서비스와 함께 건강관리, 여가활동, 디지털 역량 강화 등 시니어의 삶 전반을 지원하는 통합 플랫폼을 최근 선보인 사례가 있습니다.
-반면, KB 국민은행은 최근 ‘골든라이프부’라는 시니어 전담 조직을 신설하고, 유언대용신탁 등 일부 고령층 특화 상품을 출시했지만, **시니어 고객의 복합적인 삶의 문제를 아우르는 ‘통합
-디지털 플랫폼’은 아직 구축되지 않은 상황**입니다.
-저출산·고령화 문제는 단일 서비스로 해결될 수 없는 구조적 과제이며, 인구구조를 근본적으로 바꾸는 것은 장기적이고 제한적인 접근이 될 수밖에 없습니다.
-오히려 고령층이 보다 건강하고 자율적으로 인생 2막을 설계할 수 있도록 돕는 실질적 도구 제공이 보다 현실적이고 지속 가능한 대안이 될 수 있습니다.
+---
 
-### (2) 프로젝트 목적
-본 프로젝트는 시니어의 주요 관심사인 건강 관리, 자산 현황, 상속·증여 계획 등 노후 전반에 걸친 실질적인 과제를 하나의 플랫폼에서 해결할 수 있는 KB 만의 통합 디지털 솔루션을 제안하고자 합니다.
-이는 단순한 정보 전달을 넘어, 시니어가 자신의 노후를 주도적으로 설계하고 실천할 수 있는 디지털 자립의 기반이 될 것입니다.
+## 🧸 Our Service
 
-### (3) 기술 스택
+<img width="500"  alt="서비스소개-1" src="https://github.com/user-attachments/assets/215f8361-bf41-4b23-b2c5-8740a39e17f6" />
+<img width="500"  alt="서비스소개-2" src="https://github.com/user-attachments/assets/b9ea49f5-b0a0-495f-830c-e931362ad9db" />
 
-| 항목 | 사용 도구 / 기술 |
-|------|------------------|
-| 👥 소통 / 협업 | ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=flat-square&logo=notion&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=flat-square&logo=jira&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white) |
-| 🖥️ Frontend | ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=flat-square&logo=vuedotjs&logoColor=%234FC08D) |
-| 🛠️ Backend | ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=flat-square&logo=spring&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white) |
-| 🗄️ Database | ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat-square&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white) |
-| 🌐 버전 관리 | ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat-square&logo=github&logoColor=white) |
+- **맞춤형 상품추천**: 부모님이 미래를 스스로 그려 나가실 수 있도록 금융 길잡이가 되어드립니다.
 
-</br>
+- **증여・상속 시뮬레이션**: 부모님이 자녀에 대한 사랑을 더 아름답게 표현하실 수 있도록, 증여와 상속을 함께 설계합니다.
 
-## 3. 주요 기능 소개
+- **생활편의**: 부모님의 매일이 더 활기차고 의미 있게 채워질 수 있도록 생활 편의 기능을 담았습니다.
 
-1. **간편 로그인 및 회원가입 기능**
-   - 카카오 OAuth를 통한 소셜 로그인
-   - 최초 로그인 시 간단한 회원가입 절차 포함
+- **사용자 친화적 UI/UX**: 부모님이 기술에 낯설지 않도록, 쉽고 친근한 화면으로 편안함을 전합니다.
 
-2. **자산 연동 및 개인 투자 성향 및 우선순위 수집 기능**
-   - CODEF API 연동을 통해 은행 자산 자동 조회
-   - 투자 성향 설문조사 및 사용자의 재무 목표 설정
+## ✨ Features
 
-3. **사용자 정보 관리 기능**
-   - 회원 정보 수정, 금융 목표 관리, 연동 해제 등
+<img width="330"  alt="노후도락시작" src="https://github.com/user-attachments/assets/df846608-cde1-4118-aed7-8c10480fe817" />
+<img width="330"  alt="노후도락시작" src="https://github.com/user-attachments/assets/ea448c9b-7c74-4690-a4b2-2f2f75ba36aa" />
+<img width="330"  alt="노후도락시작" src="https://github.com/user-attachments/assets/58d5c40a-4e8f-4ebb-8ee7-d96140fb1ee8" />
+<img width="330"  alt="노후도락시작" src="https://github.com/user-attachments/assets/f4ad50b2-1d7b-4261-b75f-03220f901e5b" />
+<img width="330"  alt="노후도락시작" src="https://github.com/user-attachments/assets/8acbe89d-10b1-4544-8c30-3e342fc03725" />
 
-4. **노후 자산 분석 및 상품 추천 기능**
-   - 수집된 자산 데이터를 기반으로 노후 준비 상태 분석
-   - 사용자 성향 기반 금융상품 추천
+<img width="330"  alt="상품추천" src="https://github.com/user-attachments/assets/5d0c1fd7-15e1-4eb2-84b5-63779b7f22c5" />
+<img width="330"  alt="상품추천" src="https://github.com/user-attachments/assets/14a2a0f1-2e4a-44a1-a59d-6709b45ea87e" />
+<img width="330"  alt="상품추천" src="https://github.com/user-attachments/assets/b8a01535-32d0-4ad9-85d5-f9d34c7e5912" />
+<img width="330"  alt="상품추천" src="https://github.com/user-attachments/assets/21d3cc53-a155-4559-8010-b98781ddb791" />
 
-5. **증여 및 상속 FAQ**
-   - 시니어 대상 증여/상속 관련 자주 묻는 질문과 해설 제공
-   - 예시 기반 정보 제공
+<img width="330"  alt="증여상속" src="https://github.com/user-attachments/assets/05773251-aa5d-4300-a2f9-55b401ec04da" />
+<img width="330"  alt="증여상속" src="https://github.com/user-attachments/assets/1ebf5831-c395-4369-8816-27ab2f417d10" />
+<img width="330"  alt="증여상속" src="https://github.com/user-attachments/assets/da5674d7-e3ab-49c9-b010-108659a8cf5a" />
 
-6. **증여 시뮬레이션 기능**
-   - 자산을 누구에게, 얼마를 증여하면 세금이 얼마나 발생하는지 시뮬레이션
-   - 입력 기반 시각화 결과 제공
+<img width="330"  alt="생활편의" src="https://github.com/user-attachments/assets/89a8df0c-1fb1-417f-b2b8-ae25e85795c0" />
+<img width="330"  alt="생활편의" src="https://github.com/user-attachments/assets/f3105bc8-3216-4a70-be45-2dc16f7e5e39" />
+<img width="330"  alt="생활편의" src="https://github.com/user-attachments/assets/1b666673-ac52-45af-a955-ad7d5a9dfa87" />
 
-7. **상속 계획 수립 및 유언장 템플릿 기능**
-   - 상속 분배 계획 시나리오 작성
-   - 유언장 템플릿 제공
 
-8. **은행 방문 예약/정보 전달 기능**
-   - 사용자 위치 기반 가까운 은행 지점 안내
-   - 방문 예약 및 필요한 서류 안내
+## 🛠️ Skills & Tech Stack
 
-9. **금융 리터러시(능력) 향상 이벤트 기능**
-   - 퀴즈, 미션, 콘텐츠로 구성된 금융 교육 챌린지
-   - 참여 시 포인트 지급
+### 🚀 Deploy
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
 
-10. **포인트 관리 및 사용 기능**
-   - 이벤트, 교육 참여 시 포인트 적립
-   - 포인트로 사은품 제공
+### 🎨 Frontend
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+### ⚙️ Backend
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+
+### 🛠️ Tools & Collaboration
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+
+### 🤖 AI & Other Services
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Naver Clova](https://img.shields.io/badge/Naver_Clova-03C75A?style=for-the-badge&logo=naver&logoColor=white)
+![GPT-4o mini](https://img.shields.io/badge/GPT--4o_mini-412991?style=for-the-badge&logo=openai&logoColor=white)
+![CoolSMS](https://img.shields.io/badge/CoolSMS-0099FF?style=for-the-badge&logo=sms&logoColor=white)
+
+## 👫🏻 Contributors
+
+| <img src="https://github.com/a40418a.png" width="200"> | <img src="https://github.com/guno-p.png" width="200"> | <img src="https://github.com/saeun-park.png" width="200"> |
+| :---------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: |
+|                                   최승아                                        |                                     박건호                                     |                                  박사은                                     |
+|                  [a40418a](https://github.com/a40418a)                  |                     [guno-p](https://github.com/guno-p)                     |    [saeun-park](https://github.com/saeun-park)                     |
+|                                   Frontend                                    |                                   Frontend                                   |                                   Frontend                                   |
+| <img src="https://github.com/ParkPark8.png" width="200"> | <img src="https://github.com/syann97.png" width="200"> | <img src="https://github.com/NahyeChoi.png" width="200"> |
+|                                   박동희                                        |                                     안세영                                     |                                  최나혜                                     |
+|                  [ParkPark8](https://github.com/ParkPark8)                  |                     [syann97](https://github.com/syann97)                     |    [NahyeChoi](https://github.com/NahyeChoi)                     |
+|                                   Backend                                    |                                   Backend                                   |                                   Backend                                   |
